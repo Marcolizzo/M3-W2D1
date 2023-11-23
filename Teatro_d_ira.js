@@ -1,76 +1,52 @@
 const canzoni = [
     {
-        Titolo: "HONEY (ARE YOU COMING?)",
+        Titolo: "ZITTI E BUONI",
         Artista: "Måneskin",
         Genere: "Pop rock/Hard rock",
-        Durata: "2:47",
+        Durata: "3:14",
     },
     {
-        Titolo: "VALENTINE",
+        Titolo: "CORALINE",
         Artista: "Måneskin",
         Genere: "Pop rock/Hard rock",
-        Durata: "3:36",
+        Durata: "5:00",
     },
     {
-        Titolo: "OFF MY FACE",
+        Titolo: "LIVIDI SUI GOMITI",
         Artista: "Måneskin",
         Genere: "Pop rock/Hard rock",
-        Durata: "2:29",
+        Durata: "2:45",
     },
     {
-        Titolo: "THE DRIVER",
+        Titolo: "I WANNA BE YOUR SLAVE",
         Artista: "Måneskin",
         Genere: "Pop rock/Hard rock",
-        Durata: "3:08",
+        Durata: "2:53",
     },
     {
-        Titolo: "TRASTEVERE",
+        Titolo: "IN NOME DEL PADRE",
         Artista: "Måneskin",
         Genere: "Pop rock/Hard rock",
-        Durata: "3:02",
+        Durata: "3:39",
     },
     {
-        Titolo: "OWN MY MIND",
+        Titolo: "FOR YOUR LOVE",
         Artista: "Måneskin",
         Genere: "Pop rock/Hard rock",
-        Durata: "3:11",
+        Durata: "3:50",
     },
     {
-        Titolo: "GOSSIP",
+        Titolo: "LA PAURA DEL BUIO",
         Artista: "Måneskin",
         Genere: "Pop rock/Hard rock",
-        Durata: "2:48",
+        Durata: "3:29",
     },
     {
-        Titolo: "TIMEZONE",
+        Titolo: "VENT'ANNI",
         Artista: "Måneskin",
         Genere: "Pop rock/Hard rock",
-        Durata: "2:59",
-    },
-    {
-        Titolo: "BLA BLA BLA",
-        Artista: "Måneskin",
-        Genere: "Pop rock/Hard rock",
-        Durata: "3:04",
-    },
-    {
-        Titolo: "BABY SAID",
-        Artista: "Måneskin",
-        Genere: "Pop rock/Hard rock",
-        Durata: "2:44",
-    },
-    {
-        Titolo: "GASOLINE",
-        Artista: "Måneskin",
-        Genere: "Pop rock/Hard rock",
-        Durata: "3:41",
-    },
-    {
-        Titolo: "FEEL",
-        Artista: "Måneskin",
-        Genere: "Pop rock/Hard rock",
-        Durata: "2:47",
-    },
+        Durata: "4:13",
+    }
 ]
 
 let title = document.querySelectorAll(".card-title")
@@ -84,10 +60,10 @@ for (let i = 0; i < canzoni.length; i++) {
     artist[i].innerHTML = canzoni[i].Artista
     genre[i].innerHTML = canzoni[i].Genere
     duration[i].innerHTML = canzoni[i].Durata
-    image[i].src = "./assets/RUSH-Are-u-coming_Cover-scaled.jpg"
+    image[i].src = "./assets/teatro_d_ira.jpg"
 }
 
 let body = document.querySelector("body")
-body.style = `background-image: url(/assets/RUSH-Are-u-coming_Cover-scaled.jpg);
+body.style = `background-image: url(/assets/teatro_d_ira.jpg);
 background-repeat:no-repeat;
 background-size: 100%`
