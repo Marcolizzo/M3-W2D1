@@ -89,5 +89,4 @@ for (let i = 0; i < canzoni.length; i++) {
 
 let body = document.querySelector("body")
 body.style = `background-image: url(/assets/RUSH-Are-u-coming_Cover-scaled.jpg);
-background-repeat:no-repeat;
 background-size: 100%`

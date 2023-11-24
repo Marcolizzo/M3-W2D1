@@ -1,51 +1,45 @@
 const canzoni = [
     {
-        Titolo: "ZITTI E BUONI",
+        Titolo: "Chosen",
         Artista: "Måneskin",
         Genere: "Pop rock/Hard rock",
-        Durata: "3:14",
+        Durata: "2:42",
     },
     {
-        Titolo: "CORALINE",
+        Titolo: "Recovery",
         Artista: "Måneskin",
         Genere: "Pop rock/Hard rock",
-        Durata: "5:00",
+        Durata: "2:55",
     },
     {
-        Titolo: "LIVIDI SUI GOMITI",
+        Titolo: "Vengo dalla luna",
         Artista: "Måneskin",
         Genere: "Pop rock/Hard rock",
-        Durata: "2:45",
+        Durata: "3:04",
     },
     {
-        Titolo: "I WANNA BE YOUR SLAVE",
+        Titolo: "Beggin'",
         Artista: "Måneskin",
         Genere: "Pop rock/Hard rock",
-        Durata: "2:53",
+        Durata: "3:31",
     },
     {
-        Titolo: "IN NOME DEL PADRE",
+        Titolo: "Let's Get It Started",
         Artista: "Måneskin",
         Genere: "Pop rock/Hard rock",
-        Durata: "3:39",
+        Durata: "2:26",
     },
     {
-        Titolo: "FOR YOUR LOVE",
+        Titolo: "Somebody Told Me",
         Artista: "Måneskin",
         Genere: "Pop rock/Hard rock",
-        Durata: "3:50",
+        Durata: "2:41",
     },
     {
-        Titolo: "LA PAURA DEL BUIO",
+        Titolo: "You Need Me, I Don't Need You",
         Artista: "Måneskin",
         Genere: "Pop rock/Hard rock",
-        Durata: "3:29",
-    },
-    {
-        Titolo: "VENT'ANNI",
-        Artista: "Måneskin",
-        Genere: "Pop rock/Hard rock",
-        Durata: "4:13",
+        Durata: "3:30",
     }
 ]
 
@@ -60,9 +54,9 @@ for (let i = 0; i < canzoni.length; i++) {
     artist[i].innerHTML = canzoni[i].Artista
     genre[i].innerHTML = canzoni[i].Genere
     duration[i].innerHTML = canzoni[i].Durata
-    image[i].src = "./assets/teatro_d_ira.jpg"
+    image[i].src = "./assets/chosen.jpg"
 }
 
 let body = document.querySelector("body")
-body.style = `background-image: url(/assets/teatro_d_ira.jpg);
+body.style = `background-image: url(/assets/chosen.jpg);
 background-size: 100%`
